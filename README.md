@@ -81,3 +81,34 @@ Ejemplo de los resultados que podría encontrar:
 65-09-87#123
 552560e123
 +521565811
+
+URLs:
+https?:\/\/[\w\-\.]+\.\w{2,5}\/?.*
+Ejemplo de los resultados que podría encontrar:
+url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx
+url: http://instagram.com/p/blablablah
+url: http://itam.mx/test
+http://instagram.com/p/blablablah
+
+MAILS:
+[\w\._]{5,30}\+?[\w]{0,10}@[\w\.\-]{3,}?\.\w{2,5}$
+Ejemplo de los resultados que podría encontrar:
+esto.es.un.mail+gmail@mail.com.mx
+esto.es_un.mail+complejo@gmail.com
+rodrigo.jimenez@yahoo.com.mx
+
+LOCACIONES:
+^\-?\d{1,3}\.\d{1,6},\s?\-?\d{1,3}\.\d{1,6},.*$
+Ejemplo de los resultados que podría encontrar:
+-99.205646,19.429707,2775.10
+-99.205581,19.429652,2275.10
+-99.205581, 19.429652,2275.58
+
+^\-?\d{1,3}\s\d{1,2}' \d{1,2}\.\d{2,2}"[WE],\s?\-?\d{1,3}\s\d{1,2}' \d{1,2}\.\d{2,2}"[SN]
+Ejemplo de los resultados que podría encontrar:
+-99 12' 34.08"W, 19 34' 56.98"N
+-34 54' 32.00"E, -3 21' 67.00"S
+
+
+
+
